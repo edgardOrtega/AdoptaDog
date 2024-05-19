@@ -86,7 +86,7 @@ section p {
     border: 1px solid rgb(214, 214, 214);
     justify-content: center;
     align-items:center;
-    margin: 0rem 0rem;
+    margin: 1rem 0rem;
     padding: 1rem 0rem;
     /* animacion */
     transition: transform 0.3s, box-shadow 0.3s, opacity s, border 0.3;
