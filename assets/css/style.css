@@ -20,7 +20,7 @@ img{
 
 button{
     width: 100px;
-    background: rgb(35, 95, 77);
+    background: rgb(59, 164, 133);
     color: white;
     border-radius: 0.5rem;
     /* transicion color de boton */
@@ -89,7 +89,7 @@ section p {
     margin: 0rem 0rem;
     padding: 1rem 0rem;
     /* animacion */
-    transition: transform 0.3s, box-shadow 0.3s, opacity s;
+    transition: transform 0.3s, box-shadow 0.3s, opacity s, border 0.3;
     position: relative;
 }
 
@@ -97,12 +97,14 @@ section p {
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .card:hover button {
     border-radius: 0px;
-    border-top-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-    background: rgb(7, 7, 42);
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background: rgb(0, 52, 37);
 }
 /* Añadiendo una animación de opacidad */
 .card:hover::after {
